@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PersonController {
     @GetMapping("/api/v1/people")
     public String getBook() {
+
         return "API Test!";
     }
 }
